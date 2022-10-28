@@ -32,12 +32,13 @@ class Form extends React.Component {
     );
 
     return (
-      <form id="form-card">
+      <form className="form" id="form-card">
         <div className="content-div">
           <label htmlFor="card-name">
             Nome
             <input
               data-testid="name-input"
+              className="card-input"
               type="text"
               id="card-name"
               name="cardName"
@@ -61,12 +62,13 @@ class Form extends React.Component {
           </label>
         </div>
 
-        <div className="content-div">
+        <div className="content-div2">
           <label htmlFor="card-attr1">
             Attribute 1:
             <input
               data-testid="attr1-input"
               type="number"
+              className="card-input2"
               name="cardAttr1"
               value={ cardAttr1 }
               onChange={ onInputChange }
@@ -79,6 +81,7 @@ class Form extends React.Component {
               data-testid="attr2-input"
               type="number"
               id="card-attr2"
+              className="card-input2"
               name="cardAttr2"
               value={ cardAttr2 }
               onChange={ onInputChange }
@@ -91,6 +94,7 @@ class Form extends React.Component {
               data-testid="attr3-input"
               type="number"
               id="card-attr3"
+              className="card-input2"
               name="cardAttr3"
               value={ cardAttr3 }
               onChange={ onInputChange }
@@ -104,6 +108,7 @@ class Form extends React.Component {
             <input
               type="text"
               id="card-image"
+              className="card-input"
               data-testid="image-input"
               name="cardImage"
               value={ cardImage }
@@ -117,6 +122,7 @@ class Form extends React.Component {
             Raridade
             <select
               data-testid="rare-input"
+              className="card-input"
               id="card-rarity"
               name="cardRare"
               value={ cardRare }
@@ -138,6 +144,7 @@ class Form extends React.Component {
 
         <div className="content-div">
           <button
+            className="save-button"
             data-testid="save-button"
             type="submit"
             id="card-save-button"

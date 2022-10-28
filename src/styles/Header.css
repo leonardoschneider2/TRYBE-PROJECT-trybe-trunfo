@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Mono:wght@200&display=swap');
+/* font-family: 'Permanent Marker', cursive; */
+/* font-family: 'Roboto Mono', monospace; */
+
+.playstation-header {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: #151515;
+  color: white;
+  width: 100vw;
+}
+
+.playstation-header div {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.playstation-header-title {
+  font-family: 'Permanent Marker', cursive;
+  align-items: center;
+}
+
+.playstation-header-subtitle {
+  font-family: 'Roboto Mono', monospace;
+  align-items: center;
+}
+
+.play2logo {
+  width: 200px;
+  height: 112.5px;
+  background-image: url('https://img.gta5-mods.com/q75/images/ps2-rockstar-logo-replace/bd8924-PS2%202.png');
+  background-size: 200px 112.5px;
+}

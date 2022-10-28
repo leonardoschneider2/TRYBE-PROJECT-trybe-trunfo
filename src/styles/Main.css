@@ -1,0 +1,89 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  padding: 15px;
+  color: azure;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* FORMULÁRIOS */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  gap: 30px;
+}
+
+.content-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-div2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-div label {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.content-div2 label {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.content-div textarea {
+  height: 90px;
+  font-size: 20px;
+  background-color: azure;
+  border: none;
+}
+
+.card-input {
+  height: 35px;
+  width: 450px;
+  font-size: 20px;
+  border: none;
+  background-color: rgba(240, 255, 255, 0.918);
+}
+
+.card-input2 {
+  height: 40px;
+  width: 90px;
+  font-size: 20px;
+  border: none;
+  background-color: azure;
+}
+
+.save-button {
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  border: none;
+  background-color: rgb(173, 185, 255);
+}
+
+/* CARTA */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  gap: 30px;
+  background-color: azure;
+  color: #151515;
+}
