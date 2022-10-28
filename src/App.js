@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from './components/Card';
 import Form from './components/Form';
+import './styles/App.css';
 
 // Hello World!
 class App extends React.Component {
@@ -156,9 +157,10 @@ class App extends React.Component {
       cards,
     } = this.state;
     return (
-      <>
-        <header>
-          <h1>Trunfo Capas do PLAY 2:</h1>
+      <div className="page">
+        <header className="playstation-header">
+          <h2 className="playstation-header-subtitle">TRYBE PROJECT</h2>
+          <h1 className="playstation-header-title">Trunfo Cards Creator</h1>
         </header>
         <main>
           <Form
@@ -214,7 +216,7 @@ class App extends React.Component {
             ))
           }
         </ul>
-      </>
+      </div>
     );
   }
 }
